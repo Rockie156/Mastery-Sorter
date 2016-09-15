@@ -48,8 +48,11 @@ public class MasterySorter {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-
+		
+		/** Arraylist containing the list of "Champion Names" **/
 		final ArrayList<ChampionName> List = loadChampionList();
+		
+		/** Setup of the primary frame **/
 		J = new JFrame("Mastery Sorter");
 		J.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		final JTextField name = new JTextField(10);
@@ -83,7 +86,7 @@ public class MasterySorter {
 
 		AbstractAction action = new AbstractAction() {
 			/**
-			 * NO IDEA WHAT THIS IS PLS HALP ECLIPSE AUTO GENERATED STUB
+			 * AUTO GENERATED STUB
 			 */
 			private static final long serialVersionUID = 1L;
 
